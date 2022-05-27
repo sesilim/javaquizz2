@@ -23,7 +23,19 @@ for(var i=0; i<group1.lenght; i++){
     //document.write(numbers[i]+ "</br>");
 //} 
 //მეორე ტასკი
-
+function display(x, function1){
+    var message=function1(x);
+    document.write(message);
+}
+function funtion2(ხელფასი){
+    if (ხელსაფი<50)
+    return "დაბალი ხელფასი";
+    else if(ხელფასი<=200)
+    return "საშუალო ხელფასი";
+    else (ხელფასი >500);
+    return "მაღალი ხელფასი";
+}
+display (700, function2)
 
 //მესამე ტასკი
 
